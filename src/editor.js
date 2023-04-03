@@ -1694,7 +1694,7 @@ define(['bslGlobals', 'bslMetadata', 'snippets', 'bsl_language', 'vs/editor/edit
         monaco.editor.setTheme(value.name);
       }
 
-      createEditor(language.id, getCode(), 'bsl-white');
+      createEditor(language.id, getCode(), 'bsl-dark');
       registerCodeLensProviders();
       setDefaultSnippets();
     
